@@ -1,0 +1,17 @@
+<template>
+<ul>
+<li id="red">Red</li>
+<li id="orange">Orange</li>
+<li id="yellow">Yellow</li>
+<li id="green">Green</li>
+<li id="blue">Blue</li>
+<li id="indigo">Indigo</li>
+<li id="violet">Violet</li>
+</ul>
+</template>
+
+<script>
+export default  {
+  name:'ColorButtons',      
+}
+</script>
