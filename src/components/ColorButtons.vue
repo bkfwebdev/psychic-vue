@@ -1,12 +1,12 @@
 <template>
 <ul>
-<li id="red">Red</li>
-<li id="orange">Orange</li>
-<li id="yellow">Yellow</li>
-<li id="green">Green</li>
-<li id="blue">Blue</li>
-<li id="indigo">Indigo</li>
-<li id="violet">Violet</li>
+<li class="red">Red</li>
+<li class="orange">Orange</li>
+<li class="yellow">Yellow</li>
+<li class="green">Green</li>
+<li class="blue">Blue</li>
+<li class="indigo">Indigo</li>
+<li class="violet">Violet</li>
 </ul>
 </template>
 

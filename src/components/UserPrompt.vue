@@ -1,5 +1,5 @@
 <template>
-   <p id="userprompt">{{message}}</p>
+   <p class="userprompt">{{message}}</p>
 </template>
 
 <script>

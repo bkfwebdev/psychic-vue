@@ -1,9 +1,11 @@
 <template>
+<div class = "container">
 <Header/>
 <Profx/>
 <ColorButtons/>
 <Instructions/>
 <UserPrompt/>
+</div>
 </template>
 
 <script>
