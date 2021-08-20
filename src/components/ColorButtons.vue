@@ -1,4 +1,5 @@
 <template>
+
 <ul>
 <li class="red">Red</li>
 <li class="orange">Orange</li>
@@ -8,6 +9,7 @@
 <li class="indigo">Indigo</li>
 <li class="violet">Violet</li>
 </ul>
+
 </template>
 
 <script>

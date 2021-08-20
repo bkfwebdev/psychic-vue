@@ -1,5 +1,5 @@
 <template>
-   <img id="profx" src = "profx.jpg">
+   <img id="profx" src = "src/assets/profx.jpg">
 </template>
 
 <script>

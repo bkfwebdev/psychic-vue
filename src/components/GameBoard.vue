@@ -10,7 +10,7 @@
 
 <script>
 import Header from './Header';
-import Profx from './Profx';
+import Profx from './Profx2';
 import ColorButtons from './ColorButtons'
 import Instructions from './Instructions';
 import UserPrompt from './UserPrompt';
