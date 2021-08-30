@@ -1,105 +1,112 @@
 .container {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	width: 100%
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
-
-
 
 #profx {
-	background-image: url("profx.jpg");
-	height:300px;
-	width:250px;
+  background-image: url("profx.jpg");
+  height: 300px;
+  width: 250px;
 }
 
-
 li {
-border-style:solid;
-border-width:2px;
-border-color:black;
-border-radius:5px;
-width: 70px;
-height: 25px;
-margin: 1%;
-padding: 2%;
-display:inline-block;
-text-align: center;
-color:white;
-font-family: impact;
-font-size: large;
-white-space: nowrap;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 5px;
+  width: 70px;
+  height: 25px;
+  margin: 1%;
+  padding: 2%;
+  display: inline-block;
+  text-align: center;
+  color: white;
+  font-family: impact;
+  font-size: large;
+  white-space: nowrap;
+}
+
+button {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 5px;
+  width: 70px;
+  height: 25px;
+  margin: 1%;
+  padding: 2%;
+  display: inline-block;
+  text-align: center;
+  color: white;
+  font-family: impact;
+  font-size: large;
+  white-space: nowrap;
 }
 
 ul {
-list-style:none;
-width:100%
+  list-style: none;
+  width: 100%;
 }
 
-
-.userprompt{
-	padding-left:1%;
-	padding-right:1%;
-	margin-left:2%;
-	margin-right:2%;
+.userprompt {
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
-
 
 .red {
-background-color:red;
+  background-color: red;
 }
 
 .orange {
-background-color:orange;
+  background-color: orange;
 }
 
 .yellow {
-background-color:yellow;
+  background-color: yellow;
 }
 
 .green {
-background-color:green;
+  background-color: green;
 }
 
 .blue {
-background-color:blue;
+  background-color: blue;
 }
 
 .indigo {
-background-color:indigo;
+  background-color: indigo;
 }
 
 .violet {
-background-color:violet;
+  background-color: violet;
 }
 
-
-
 .gameboard {
-width:100%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-
-
 .userprompt {
-background-color:white;
-color:black;
-border-style:solid;
-border-width:2px;
-border-radius:10px;
-padding-top:3px;
-padding-bottom:3px;
+  background-color: white;
+  color: black;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 
 .now-you-see-me {
-	visibility: visible;
-  }
-  
-.now-you-dont {
-	visibility: hidden;
-  }
+  visibility: visible;
+}
 
+.now-you-dont {
+  visibility: hidden;
+}

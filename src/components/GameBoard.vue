@@ -1,33 +1,33 @@
 <template>
-<div class = "container">
-<Header/>
-<Profx/>
-<ColorButtons/>
-<Instructions/>
-<UserPrompt/>
-</div>
+  <div class="container">
+    <Header />
+    <Profx />
+    <ColorButtons2 :colors = "colors" />
+    <Instructions />
+    <UserPrompt />
+  </div>
 </template>
 
 <script>
-import Header from './Header';
-import Profx from './Profx2';
-import ColorButtons from './ColorButtons'
-import Instructions from './Instructions';
-import UserPrompt from './UserPrompt';
-
+import Header from "./Header";
+import Profx from "./Profx2";
+import ColorButtons2 from "./ColorButtons2";
+import Instructions from "./Instructions";
+import UserPrompt from "./UserPrompt";
 
 export default {
-  name: 'GameBoard ',
+  name: "GameBoard",
+
   components: {
     Header,
     Profx,
-    ColorButtons,
+    ColorButtons2,
     Instructions,
-    UserPrompt   
-  }
-}
+    UserPrompt,
+  },
+
+  props: {
+    colors: Array
+  },
+};
 </script>
-
-<style>
-
-</style>
